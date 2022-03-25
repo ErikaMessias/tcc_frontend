@@ -3,7 +3,10 @@
     <headers />
         <div class="page">
           <div class="content-block">
-            <!-- <h1>Configurações</h1> -->
+            <div class="titulo">
+              <h1>Configurações</h1>
+              <hr>
+            </div>
             <div class="cards">
               <div class="card-one c">
                 <h1>Cadastrar Usuario</h1>
@@ -15,6 +18,12 @@
                 <h1>Consultar Usuario</h1>
                 <img src="/produto.png">
                 <NuxtLink class="btn-ir" to="/consulta_usuario">Selecionar</NuxtLink>                
+              </div>
+
+              <div class="card-three c">
+                <h1>Historico Usuario</h1>
+                <img src="/sucata.png">
+                <NuxtLink class="btn-ir" to="#">Selecionar</NuxtLink>                
               </div>
             </div>
           </div>

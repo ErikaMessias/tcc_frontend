@@ -9,6 +9,7 @@
             <NuxtLink to="/" class="link">Login</NuxtLink>
             <NuxtLink to="/transacoes" class="link">Transações</NuxtLink>
             <NuxtLink to="/config" class="link">Configurações</NuxtLink>
+            <nuxt-link tag="img" src="perfil.png" to="#" class="perfil"></nuxt-link>
           </div>
         </section>
       </header>
@@ -18,6 +19,11 @@
 <style lang="scss" scoped>
 @import "@/layouts/variaveis.scss";
 $image: "@/static/logo.png";
+
+.perfil{
+  width:20px;
+  height:20px;
+}
 
 .menu {
   height: calc($alturaHeader - $alturaLine);

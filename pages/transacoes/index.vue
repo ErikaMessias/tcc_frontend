@@ -4,7 +4,10 @@
         <div class="page">
           <div class="content-block">
             <!-- <h1>Transações</h1> -->
-
+            <div class="titulo">
+              <h1>Transações</h1>
+              <hr>
+            </div>
             <div class="cards">
               <div class="card-one c">
                 <h1>Descarte de Sucata</h1>
@@ -24,6 +27,12 @@
                 <h1>Consultar Produtos</h1>
                 <img src="/lupa.png">
                 <NuxtLink class="btn-ir" to="/consulta_produto">Selecionar</NuxtLink>
+              </div>
+
+              <div class="card-three c">
+                <h1>Catalogo</h1>
+                <img src="/lupa.png">
+                <NuxtLink class="btn-ir" to="#">Selecionar</NuxtLink>
               </div>
             </div>
 

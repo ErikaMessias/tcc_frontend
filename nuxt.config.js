@@ -35,6 +35,7 @@ export default {
     'primevue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    // '@nuxtjs/auth',
     'google-fonts',
   ],
 
